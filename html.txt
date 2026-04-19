@@ -1,0 +1,2092 @@
+<html lang="ko"><script src="https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202603310101/show_ads_impl_fy2021.js"></script><script async="" src="https://cdn.matomo.cloud/radar0458.matomo.cloud/matomo.js"></script><head>
+    <!-- base.html -->
+    
+
+      <!-- Matomo -->
+      <script>
+        var _paq = window._paq = window._paq || [];
+        /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+          var u="https://radar0458.matomo.cloud/";
+          _paq.push(['setTrackerUrl', u+'matomo.php']);
+          _paq.push(['setSiteId', '1']);
+          var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+          g.async=true; g.src='https://cdn.matomo.cloud/radar0458.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
+        })();
+      </script>
+      <!-- End Matomo Code -->
+
+      <meta charset="UTF-8">
+      <title>떨사오팔 Pro 레이더</title>
+      <link rel="icon" href="/static/favicon.ico" type="image/x-icon">
+      
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&amp;display=swap" rel="stylesheet">
+      <style>
+        body {
+          font-family: "Noto Sans KR", sans-serif;
+        }
+      </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1"><link href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.3/dist/solar/bootstrap.min.css" rel="stylesheet"><link rel="stylesheet" href="/static/style.css"><script async="" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9122655725558149" crossorigin="anonymous" data-checked-head="true"></script><meta http-equiv="origin-trial" content="AlK2UR5SkAlj8jjdEc9p3F3xuFYlF6LYjAML3EOqw1g26eCwWPjdmecULvBH5MVPoqKYrOfPhYVL71xAXI1IBQoAAAB8eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="Amm8/NmvvQfhwCib6I7ZsmUxiSCfOxWxHayJwyU1r3gRIItzr7bNQid6O8ZYaE1GSQTa69WwhPC9flq/oYkRBwsAAACCeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiV2ViVmlld1hSZXF1ZXN0ZWRXaXRoRGVwcmVjYXRpb24iLCJleHBpcnkiOjE3NTgwNjcxOTksImlzU3ViZG9tYWluIjp0cnVlfQ=="><meta http-equiv="origin-trial" content="A9nrunKdU5m96PSN1XsSGr3qOP0lvPFUB2AiAylCDlN5DTl17uDFkpQuHj1AFtgWLxpLaiBZuhrtb2WOu7ofHwEAAACKeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A93bovR+QVXNx2/38qDbmeYYf1wdte9EO37K9eMq3r+541qo0byhYU899BhPB7Cv9QqD7wIbR1B6OAc9kEfYCA4AAACQeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A1S5fojrAunSDrFbD8OfGmFHdRFZymSM/1ss3G+NEttCLfHkXvlcF6LGLH8Mo5PakLO1sCASXU1/gQf6XGuTBgwAAACQeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElNdWx0aW1vZGFsSW5wdXQiLCJleHBpcnkiOjE3NzQzMTA0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><script async="" src="https://fundingchoicesmessages.google.com/i/ca-pub-9122655725558149?href=https%3A%2F%2Fradar0458.pro%2Faccount%2F2214&amp;ers=2"></script><script async="" src="https://fundingchoicesmessages.google.com/f/AGSKWxV1WnmgIgQFC6Bvp_r-zmeQHygbWyg7q2oxSYhjWwMpw889TwiDn3hkmkiF7gL80h3r8QtZye6bLLPHkg9PS_FVs9h3iIPcuEIs0M8iIJQ1PqB9n7jELfYruIGSl1x_6n-DemyM?fccs=W1siQUtzUm9sOWlFTTQzSFNBYllYOGsxaFBrdmpGcEI4TVRMU0U2clZKSW5lTkg0RF9YMmtQd3BhdTVHYVBtSmNnRzhwMVloNURoWlNsUkNjWmh4VnREMTI0T1kyeFlKOWZoTnBhRXF0U3hhaHppN3d2b0NjTVZEMWdMblFxaGxlaWtPOUhEUjNqRk0xMF9qcTh1MHNQanRkd2dGQmF0NzNweGtnPT0iXSxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsWzE3NzU0NzMyOTAsMTkyMDAwMDAwXSxudWxsLG51bGwsbnVsbCxbbnVsbCxbN11dLCJodHRwczovL3JhZGFyMDQ1OC5wcm8vYWNjb3VudC8yMjE0IixudWxsLFtbOCwiOWNiRmgwdXM5TmMiXSxbOSwia28iXSxbMTgsIltbW251bGwsMTEyN11dXSJdLFsyMywiMTc3NTM3MTI3MyJdLFszNSwiMTc3NTM3MTI4MyJdLFsxOSwiMiJdLFsxNywiWzBdIl0sWzI0LCJyYWRhcjA0NTgucHJvIl0sWzI5LCJmYWxzZSJdXV0"></script><script async="" src="https://fundingchoicesmessages.google.com/f/AGSKWxXXJcPt_XyJhwEbn1jZt6I-P1fDPpIVadpwuZYKEBO_jU-GEmpvYdiMXSbirbyxuEPllgQIsbFzDLWSt5VfttkvOaWPWSNGSZhcLCA9AF0EXTuPkfmzdG_sYHOojcB1sE-j6gEW?fccs=W1siQUtzUm9sOWlFTTQzSFNBYllYOGsxaFBrdmpGcEI4TVRMU0U2clZKSW5lTkg0RF9YMmtQd3BhdTVHYVBtSmNnRzhwMVloNURoWlNsUkNjWmh4VnREMTI0T1kyeFlKOWZoTnBhRXF0U3hhaHppN3d2b0NjTVZEMWdMblFxaGxlaWtPOUhEUjNqRk0xMF9qcTh1MHNQanRkd2dGQmF0NzNweGtnPT0iXSxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsWzE3NzU0NzMyOTAsMjgyMDAwMDAwXSxudWxsLG51bGwsbnVsbCxbbnVsbCxbNyw5XSxudWxsLDIsbnVsbCwiZW4iXSwiaHR0cHM6Ly9yYWRhcjA0NTgucHJvL2FjY291bnQvMjIxNCIsbnVsbCxbWzgsIjljYkZoMHVzOU5jIl0sWzksImtvIl0sWzE4LCJbW1tudWxsLDExMjddXV0iXSxbMjMsIjE3NzUzNzEyNzMiXSxbMzUsIjE3NzUzNzEyODMiXSxbMTksIjIiXSxbMTcsIlswXSJdLFsyNCwicmFkYXIwNDU4LnBybyJdLFsyOSwiZmFsc2UiXV1d"></script><script async="" src="https://fundingchoicesmessages.google.com/f/AGSKWxX6C8M5GGbNf1Qy79SncM7p8omc8NRHJrFYlPN7bo6_QThZtSOVnwhISAlaL0gGCCwV4NAMRXElayjZ8HcAwJdxlvZ_qdlEfnJDN4SDszRHiy64u1kUWWPDulUS3YWiId-4ixsO?fccs=W1siQUtzUm9sOWlFTTQzSFNBYllYOGsxaFBrdmpGcEI4TVRMU0U2clZKSW5lTkg0RF9YMmtQd3BhdTVHYVBtSmNnRzhwMVloNURoWlNsUkNjWmh4VnREMTI0T1kyeFlKOWZoTnBhRXF0U3hhaHppN3d2b0NjTVZEMWdMblFxaGxlaWtPOUhEUjNqRk0xMF9qcTh1MHNQanRkd2dGQmF0NzNweGtnPT0iXSxudWxsLG51bGwsbnVsbCxudWxsLG51bGwsWzE3NzU0NzMyOTEsNzgwMDAwMDBdLG51bGwsbnVsbCxudWxsLFtudWxsLFs3LDksNl0sbnVsbCwyLG51bGwsImVuIixudWxsLG51bGwsbnVsbCxudWxsLG51bGwsMV0sImh0dHBzOi8vcmFkYXIwNDU4LnByby9hY2NvdW50LzIyMTQiLG51bGwsW1s4LCI5Y2JGaDB1czlOYyJdLFs5LCJrbyJdLFsxOCwiW1tbbnVsbCwxMTI3XV1dIl0sWzIzLCIxNzc1MzcxMjczIl0sWzM1LCIxNzc1MzcxMjgzIl0sWzE5LCIyIl0sWzE3LCJbMF0iXSxbMjQsInJhZGFyMDQ1OC5wcm8iXSxbMjksImZhbHNlIl1dXQ"></script></head>
+
+    
+    
+    
+
+    <!-- Google AdSense -->
+    
+  
+
+  <body class="container py-4" data-new-gr-c-s-check-loaded="14.1280.0" data-gr-ext-installed="">
+
+    
+    <ins class="adsbygoogle adsbygoogle-noablate" data-ad-hi="true" data-adsbygoogle-status="done" style="display: none !important;" data-ad-status="unfilled"><div id="aswift_0_host" style="border: none; height: 0px; width: 0px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-block;"><iframe id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;border:0;width:undefinedpx;height:undefinedpx;min-height:auto;max-height:none;min-width:auto;max-width:none;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting; run-ad-auction" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-9122655725558149&amp;output=html&amp;adk=1812271804&amp;adf=3025194257&amp;lmt=1775473289&amp;plaf=1%3A2%2C2%3A2%2C7%3A2&amp;plat=1%3A128%2C2%3A128%2C3%3A128%2C4%3A128%2C8%3A128%2C9%3A32776%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1081344%2C32%3A32%2C41%3A32%2C42%3A32%2C43%3A32&amp;format=0x0&amp;url=https%3A%2F%2Fradar0458.pro%2Faccount%2F2214&amp;pra=5&amp;aiof=9&amp;asro=0&amp;aiapmd=0.0001&amp;aiapmid=0.1423&amp;aiactd=0&amp;aicctd=0&amp;ailctd=0&amp;aimartd=4&amp;aieuf=1&amp;aicrs=1&amp;uach=WyJXaW5kb3dzIiwiMTAuMC4wIiwieDg2IiwiIiwiMTQ2LjAuNzY4MC4xNzgiLG51bGwsMCxudWxsLCI2NCIsW1siQ2hyb21pdW0iLCIxNDYuMC43NjgwLjE3OCJdLFsiTm90LUEuQnJhbmQiLCIyNC4wLjAuMCJdLFsiR29vZ2xlIENocm9tZSIsIjE0Ni4wLjc2ODAuMTc4Il1dLDBd&amp;abgtt=6&amp;dt=1775473289417&amp;bpp=1&amp;bdt=271&amp;idt=62&amp;shv=r20260401&amp;mjsv=m202603310101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3D9729ddca38d9190c%3AT%3D1775371273%3ART%3D1775472391%3AS%3DALNI_Mb5Wqqu87U9OGGTxdpSqCkI0YTfPQ&amp;gpic=UID%3D0000123bb6d4aa92%3AT%3D1775371273%3ART%3D1775472391%3AS%3DALNI_MYt4rZFIoHHYJj6Y6uV2Hyi7YCdAg&amp;eo_id_str=ID%3D53a83ca212758a0d%3AT%3D1775371273%3ART%3D1775472391%3AS%3DAA-AfjZ5fgPo524n1fhfALu5MGyi&amp;nras=1&amp;correlator=992297788254&amp;frm=20&amp;pv=2&amp;u_tz=540&amp;u_his=50&amp;u_h=1080&amp;u_w=2560&amp;u_ah=1040&amp;u_aw=2560&amp;u_cd=32&amp;u_sd=1&amp;dmc=8&amp;adx=-12245933&amp;ady=-12245933&amp;biw=2545&amp;bih=919&amp;scr_x=0&amp;scr_y=0&amp;eid=31097488%2C31097490%2C95386648%2C95386814%2C95387624%2C95386955%2C95386039&amp;oid=2&amp;pvsid=3636442146584848&amp;tmod=1537084596&amp;uas=1&amp;nvt=1&amp;fsapi=1&amp;ref=https%3A%2F%2Fradar0458.pro%2Faccounts&amp;fc=1920&amp;brdim=0%2C0%2C0%2C0%2C2560%2C0%2C2560%2C1040%2C2560%2C919&amp;vis=1&amp;rsz=%7C%7Cs%7C&amp;abl=NS&amp;fu=32768&amp;bc=31&amp;bz=1&amp;ifi=1&amp;uci=a!1&amp;fsb=1&amp;dtd=69" data-google-container-id="a!1" tabindex="0" title="Advertisement" aria-label="Advertisement" data-load-complete="true"></iframe></div></ins><!-- 1️⃣ 상단 제어 바: 좌측 드롭다운 + 우측 사용자/진입 버튼들 -->
+    <div class="d-flex justify-content-between align-items-center px-3 mb-2 top-control-bar">
+      <!-- 좌측: 제품군 전환 드롭다운 -->
+       <div class="dropdown">
+          
+           
+
+          <button class="btn btn-outline-info btn-sm dropdown-toggle fw-bold" type="button" disabled="">
+            떨사오팔 Pro
+          </button>
+
+          
+        </div>
+
+      <!-- 우측: 필요한 메뉴만 부분 분기 -->
+      <div class="d-flex align-items-center gap-2">
+        
+          <span class="text-white fw-bold">👤 쏘힐</span>
+        
+
+        <!-- 트레이딩은 로그인 여부와 무관하게 노출 (기존 정책 유지) -->
+        
+
+        
+          <a href="/accounts" class="btn btn-info btn-sm text-white fw-bold">📋 트레이딩</a>
+          <a href="/my_custom" class="btn btn-success btn-sm text-white fw-bold">🔧 My Custom</a>
+          <a href="/mypage" class="btn btn-outline-light btn-sm">My Page</a>
+          
+        
+      </div>
+    </div>
+
+
+
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4 rounded px-3">
+      
+        <a class="navbar-brand fw-bold" href="/info">📡 떨사오팔 Pro 레이더</a>
+      
+
+      <ul class="navbar-nav flex-row ms-3">
+        
+
+        
+        
+        <li class="nav-item">
+          <a class="nav-link me-2 " href="/info">ℹ️ Info</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link me-2 " href="/recommend">🎯 추천 전략</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link me-2 " href="/stats">📊 통계</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link me-2 " href="/backtest">📈 백테스트(기본)</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link me-2 " href="/advanced_backtest">🚀 백테스트(레이더)</a>
+        </li>      
+                  
+        <!--
+        <li class="nav-item">
+          <a class="nav-link me-2 " href="/blog">📝 Blog</a>
+        </li>
+      -->
+        <li class="nav-item">
+          <a class="nav-link me-2 " href="/update_note">📒 Update Note</a>
+        </li>
+        
+
+        
+      </ul>
+
+    </nav>
+
+      
+
+
+    
+
+
+    <style>
+      #profitLogTable td,
+      #profitLogTable th {
+        padding-top: 0.25rem;
+        padding-bottom: 0.25rem;
+        line-height: 1.2;
+        vertical-align: middle;
+      }
+  </style>
+
+    <h4 class="fw-bold text-light mb-4">
+        📂 <span style="color:#f9d923;">현철</span> 계좌 관리
+      </h4>
+
+      
+      <a href="/accounts" class="btn btn-outline-light btn-sm mb-3">
+        ← 계좌 리스트로 돌아가기
+      </a>
+  
+      <form method="POST" action="/account/2214/update" id="account-settings-form">
+        <div class="row gx-2 border rounded align-items-start bg-info bg-opacity-25 mb-4 p-2">
+
+          <!-- 종목 -->
+          <div class="col-md-2">
+            <label class="form-label text-light">종목(Ticker)</label>
+            <select name="symbol" id="symbolSelect" class="form-select" disabled="">
+              
+                <option value="SOXL" selected="">
+                  SOXL
+                </option>
+              
+                <option value="TQQQ">
+                  TQQQ
+                </option>
+              
+                <option value="BITU">
+                  BITU
+                </option>
+              
+                <option value="TECL">
+                  TECL
+                </option>
+              
+            </select>
+
+            <div class="form-text text-muted small" style="min-height: 32px;"></div>
+          </div>
+      
+          <!-- 시드 -->
+          <div class="col-md-2">
+            <label class="form-label text-light">시드($)</label>
+            <input type="number" name="capital" class="form-control" value="35207" step="1" min="1000" disabled="">
+            <div class="form-text text-muted small" style="min-height: 32px;">
+              복리 적용: 새 회차 시작 시 수익금을 시드에 추가하세요.
+            </div>
+          </div>
+      
+          <!-- 전략 -->
+          <div class="col-md-2">
+            <label class="form-label text-light">전략</label>
+
+            <select name="strategy" class="form-select" disabled="">
+              <option value="Pro1">
+                Pro1
+              </option>
+              <option value="Pro2">
+                Pro2
+              </option>
+              <option value="Pro3" selected="">
+                Pro3              
+            </option></select>
+
+            <div class="form-text text-muted small" style="min-height: 32px;">
+              새 회차 시작 시 전략 추천을 받아보세요.
+            </div>
+          </div>
+
+      
+          <!-- 시작일 -->
+          <div class="col-md-2">
+            <label class="form-label text-light">사이클 시작일</label>
+            <input type="date" name="start_date" class="form-control" value="2026-04-06" disabled="">
+            <div class="form-text text-muted small" style="min-height: 32px;">
+              새 회차 시작 시 날짜를 새로 설정해주면 처리속도 향상에 도움이 됩니다.
+            </div>
+          </div>
+      
+          <!-- 회차 -->
+          <div class="col-md-2">
+            <label class="form-label text-light">사이클(회차)</label>
+            <input type="number" class="form-control" value="10" disabled="">            
+            <div class="form-text text-muted small" style="min-height: 32px;">
+              새로 시작할때 회차가 증가합니다.<br>(단순 확인용)
+            </div>
+          </div>
+      
+          <!-- 설정 버튼 / 강제 종료 -->
+          <div class="col-md-2 d-flex flex-column align-items-end justify-content-end">
+            
+              <a href="/account/2214?edit=true" class="btn btn-outline-light mb-2">⚙️ 설정 변경</a>
+            
+            <div class="d-flex justify-content-end w-100">
+              <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#forceTerminateModal">
+                🚫 새로 시작
+              </button>
+            </div>
+          </div>
+      
+        </div>
+      </form>
+      
+      <div class="form-check mt-2">
+        <input class="form-check-input" type="checkbox" id="auto_recommend" checked="" data-url="/account/2214/auto-recommend">
+        <label class="form-check-label text-light" for="auto_recommend">
+          추천 전략 자동
+        </label>
+        <!-- ✅ 상태 텍스트 -->
+        <span id="autoRecommendStatus" class="ms-2 fw-bold text-success">
+          [ ON ]
+        </span>
+      </div>
+      <div class="form-text text-muted small">
+        * 새 사이클 시작 시에 자동으로 전략이 변경됩니다. 오전 10:30 ~ 11:00 사이에 적용. (텔레그램 설정 필수) <br>
+      </div>
+
+      <!-- (선택) Flask-WTF CSRF를 쓰는 경우 head에 메타 추가 -->
+      <meta name="csrf-token" content="">
+
+      <!-- 자산 현황 섹션 -->
+<h5 class="text-light mt-4 mb-2">💰 자산 현황</h5>
+<table class="table table-sm table-dark table-bordered text-center mb-5">
+  <thead class="table-secondary text-dark small">
+    <tr>
+      <th>총자산</th>
+      <th>총자산DD</th>
+      <th>주식수</th>
+      <th>주식평가금</th>
+      <th>예수금</th>
+      <th>투자비중</th>
+    </tr>
+  </thead>
+  <tbody class="small align-middle">
+    <tr>
+      <td>$35,207.00</td>
+      
+      
+      
+      
+      <td class="text-success">
+        +0.00%
+      </td>
+      <td class="text-primary">0</td>
+      <td>
+        $0.00
+        <!--<span class="text-success">
+          (+0.00%)
+        </span> -->
+      </td>
+      <td>$35,207.00</td>
+      <td style="min-width: 80px;">
+        <div class="progress" style="height: 20px; font-size: 0.75rem;">
+          <!-- 주식 비중 -->
+          <div class="progress-bar bg-success text-dark text-center" role="progressbar" style="width: 0.0%;" aria-valuenow="0.0" aria-valuemin="0" aria-valuemax="100">
+            주 0.0%
+          </div>
+          <!-- 현금 비중 -->
+          <div class="progress-bar bg-secondary text-dark text-center" role="progressbar" style="width: 100.0%;" aria-valuenow="100.0" aria-valuemin="0" aria-valuemax="100">
+            현금 100.0%
+          </div>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+  <h5 class="text-light">📦 보유 현황 <span class="text-secondary small">(2026-04-06 기준) <span class="form-text small">*매일 AM9시~10시 갱신</span></span></h5>
+
+  <table class="table table-dark table-bordered text-center table-sm mt-2">
+    <thead class="table-secondary text-dark">
+      <tr>
+        <th>티어</th>
+        <th>비율</th>
+        <th>할당금액</th>
+        <th>매수금액</th>
+        <th>매수일</th>        
+        <th>매수가격</th>
+        <th>수량</th>
+        <th>매도목표</th>
+        <th>보유일</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+        
+        
+        
+  
+        <tr>
+          <td>1</td>
+          <td>16.7%</td>
+          <td>$5,868</td>
+          
+          
+            <td colspan="6" class="text-secondary">-</td>
+          
+        </tr>
+      
+        
+        
+        
+  
+        <tr>
+          <td>2</td>
+          <td>16.7%</td>
+          <td>$5,868</td>
+          
+          
+            <td colspan="6" class="text-secondary">-</td>
+          
+        </tr>
+      
+        
+        
+        
+  
+        <tr>
+          <td>3</td>
+          <td>16.7%</td>
+          <td>$5,868</td>
+          
+          
+            <td colspan="6" class="text-secondary">-</td>
+          
+        </tr>
+      
+        
+        
+        
+  
+        <tr>
+          <td>4</td>
+          <td>16.7%</td>
+          <td>$5,868</td>
+          
+          
+            <td colspan="6" class="text-secondary">-</td>
+          
+        </tr>
+      
+        
+        
+        
+  
+        <tr>
+          <td>5</td>
+          <td>16.7%</td>
+          <td>$5,868</td>
+          
+          
+            <td colspan="6" class="text-secondary">-</td>
+          
+        </tr>
+      
+        
+        
+        
+  
+        <tr>
+          <td>6</td>
+          <td>16.7%</td>
+          <td>$5,868</td>
+          
+          
+            <td colspan="6" class="text-secondary">-</td>
+          
+        </tr>
+      
+
+       <!-- ✅ 7티어 예비티어 -->
+      
+      <tr>
+        <td>7</td>
+        <td><span class="text-muted">예비티어</span></td>
+        <td>-</td>
+        
+        
+          <td colspan="6" class="text-secondary">-</td>
+        
+      </tr>
+    </tbody>
+  </table>
+  
+
+  <h5 class="text-light mt-5">🛒 오늘의 주문표 <span class="text-secondary small">(2026-04-06 기준) <span class="form-text small">*매일 AM9시~10시 갱신</span></span></h5>     
+  
+    <table class="table table-dark table-bordered text-center table-sm mt-2">
+      <thead class="table-secondary text-dark">
+        <tr>
+          <th>종목</th>
+          <th>티어</th>
+          <th>구분</th>          
+          <th>주문방법</th>
+          <th>주문가</th>
+          <th>수량</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+        <tr>
+          <td>SOXL</td>
+          <td>1</td>
+          <td style="color: #ff4d4f;">
+            매수
+          </td>          
+          <td style="color: 
+              
+                #ff851b
+              
+            ;">
+            LOC
+          </td>
+          <td>
+          
+            52.69
+          
+        </td>
+          <td class="text-primary">111</td>
+        </tr>
+        
+      </tbody>
+    </table>
+    <div class="text-start text-info small mb-5">
+      📝 주문표를 확인하여 주문을 할 수 있습니다. (수동 주문 시)
+    </div>
+  
+
+  <h6 class="text-light mt-3">🧮 퉁치기 주문표 <span class="text-secondary small">(베타테스트 중 / 오류 발생 시 제보해주세요.)</span></h6>
+  
+    <table class="table table-dark table-bordered text-center table-sm mt-2">
+      <thead class="table-secondary text-dark">
+        <tr>
+          <th>종목</th>
+          <th>구분</th>
+          <th>주문방법</th>
+          <th>주문가</th>
+          <th>수량</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+        <tr>
+          <td>SOXL</td>
+          <td style="color: #ff4d4f;">
+            매수
+          </td>
+          <td style="color:
+              
+                #ff851b
+              
+            ;">
+            LOC
+          </td>
+          <td>
+          
+            52.69
+          
+        </td>
+          <td class="text-primary">111</td>
+        </tr>
+        
+      </tbody>
+    </table>
+  
+
+<div class="d-flex align-items-center justify-content-center my-4">
+  <div class="flex-grow-1 dashed-line mx-2"></div>
+  
+  <button class="btn btn-outline-success px-4" type="button" data-bs-toggle="collapse" data-bs-target="#extraFeatures" aria-expanded="true" aria-controls="extraFeatures">
+    🔽 부가 기능 열기/닫기
+  </button>
+
+    <div class="flex-grow-1 dashed-line mx-2"></div>
+</div>
+
+
+<!-- 접히는 영역 -->
+<div class="position-relative collapse show" id="extraFeatures" style="">
+  <div class="">
+    
+  <h5 class="text-light mt-3">✏️ 손익 기록 (셀프 or 자동)</h5>
+
+    <div class="d-flex justify-content-start align-items-center gap-4 mb-0 p-2 bg-dark rounded">
+        <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" role="switch" id="autoRecordSwitch" checked="" data-start-date="2026-04-06" onclick="toggleAutoRecord(2214)">
+            <label class="form-check-label fw-bold" for="autoRecordSwitch">
+                
+                    <span class="text-primary">● 자동 기록 모드 ON</span>
+                
+            </label>
+        </div>
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" role="switch" id="autoCompoundingSwitch" checked="" data-auto-record="true" onclick="toggleAutoCompounding(2214)">
+          <label class="form-check-label fw-bold" for="autoCompoundingSwitch">
+              
+                  <span class="text-primary">● 자동 재투자(복리) ON</span>
+              
+          </label>
+        </div>
+    </div>
+
+  
+  <div class="text-muted small mb-0">    
+    ● 자동 기록 모드 : 사이클 종료 시 오전 10시 10분에 자동으로 손익을 기록합니다.<br>
+     - 수수료, RP 미반영 &amp; 오차 금액 발생 가능.<br>
+     - 수동과 자동을 자주 스위칭하지 마세요. 중복 오류가 발생할 수 있습니다.<br><br>
+     - 사이클 도중에 시드금액을 변경하면 손익금의 오차가 발생합니다.<br><br>
+    ● 자동 재투자 : 사이클 종료 시 오전 10시 10분에 자동으로 손익금을 시드에 적용합니다. (복리)<br>
+  </div>
+    
+
+    <table class="table table-dark table-bordered table-sm text-center align-middle" id="profitLogTable">
+      <thead class="table-secondary text-dark">
+        <tr>
+          <th style="width: 10%;">날짜</th>
+          <th style="width: 15%;">전략</th>        
+          <th style="width: 15%;">원금($)</th>
+          <th style="width: 15%;">손익금($)</th>
+          <th style="width: 15%;">수익률</th>
+          <th style="width: 15%;">작업</th>
+        </tr>
+      </thead>
+      <tbody id="profitLogBody">
+
+        
+        
+        
+
+        
+        
+
+        
+        
+
+      </tbody>
+    </table>
+    <!-- ✅ CSV 내보내기 & 환율 정보 -->
+    <div class="d-flex justify-content-between align-items-center mb-0">
+      <a href="/account/2214/export_profit_logs" class="btn btn-sm btn-outline-secondary">
+        📤 CSV 내보내기
+      </a>
+      <p class="text-muted mb-0" style="font-size:0.9rem;">
+        환율 기준: $1 ≈ 1511.07원
+      </p>
+    </div>
+    <!-- ✅ 총 수익금 표시 (기본 숨김) -->
+    <div id="totalProfitSummary" class="text-center fs-5 my-2 mb-3" style="display:none;">
+      총 수익금 : $0 (0원)
+    </div>
+
+    <div class="text-center my-2">
+      
+      
+      <button type="button" class="btn btn-secondary btn-sm" style="width:120px;" onclick="addProfitLogRow()">
+          ➕ 행 추가
+        </button>
+      
+    </div>
+
+    <!-- ✅ 총수익 요약 -->
+    <h5 class="text-light mt-5 mb-1" style="margin-top: 28px;">
+      <div class="d-flex justify-content-between align-items-center mb-2" style="margin-top:28px;">
+        <h5 class="text-light mb-0">
+          💰 자산 수익률
+          <form method="POST" action="/account/2214/save_initial_asset" class="d-inline-flex align-items-center ms-2" onsubmit="saveScrollPosition &amp;&amp; saveScrollPosition()">
+
+            <!-- ✅ 좌측 작은 라벨 -->
+            <small class="text-muted me-2" style="font-size:0.9rem;">초기 자산($)</small>
+    
+            <input type="number" step="0.01" name="initial_asset" class="form-control form-control-sm me-2" placeholder="초기 자산을 입력하세요" style="width: 160px;" value="21079.0">
+            <button type="submit" class="btn btn-sm btn-outline-info">💾 저장</button>
+          </form>
+        </h5>
+
+      </div>
+    </h5>
+
+    
+      
+      
+      
+        
+        
+            
+        <table class="table table-sm table-dark table-bordered text-center align-middle mt-0 mb-4">
+          <thead class="table-secondary text-dark ">
+            <tr>
+              <th>초기 자산</th>
+              <th>현재 자산</th>
+              <th>수익금</th>
+              <th>수익률</th>
+            </tr>
+          </thead>
+          <tbody class="">
+            <tr>
+              <!-- 초기 자산 -->
+              <td>
+                $21,079.00<br>
+                
+                  <span class=" ">(31,851,845원)</span>
+                
+              </td>
+
+              <!-- 현재 자산 -->
+              <td>
+                $35,207.00<br>
+                
+                  <span class=" ">(53,200,241원)</span>
+                
+              </td>
+
+              <!-- 수익금 -->
+              <td style="color: #ff7f7f;">
+                $14,128.00<br>
+                
+                  <span class="">(21,348,397원)</span>
+                
+              </td>
+
+              <!-- 수익률 -->
+              <td style="color: #ff7f7f;">
+                67.02%
+              </td>
+            </tr>
+          </tbody>
+
+        </table>    
+      
+    
+
+    
+
+    <!-- 구글 시트 연동 설정 섹션 -->
+     <h5 class="text-light mb-3" style="margin-top: 60px;">⚙️ 구글 시트 연동 설정 (부가 기능)</h5>
+     <div class="text-white small">* 주문표를 구글 시트로 전송하기 위해 필요한 설정입니다.</div>
+    <div class="border bg-dark rounded p-3 mt-2 mb-4">        
+    <form method="POST" action="/account/2214/sheet" class="row g-3 align-items-end" onsubmit="saveScrollPosition()">
+
+      <!-- 시트 ID 입력 -->
+      <div class="col-md-6">
+        <label class="form-label text-light mb-0">📄 시트 ID</label>
+        <input type="text" name="sheet_id" class="form-control form-control-sm" placeholder="예: 1aBcD...xyz" value="">
+        <div class="form-text text-secondary">Google Sheet URL 중 `/d/` 와 `/edit` 사이의 문자열입니다.</div>
+      </div>
+
+      <!-- 시트 이름 입력 -->
+      <div class="col-md-4">
+        <label class="form-label text-light mb-0">📝 시트 이름</label>
+        <input type="text" name="sheet_name" class="form-control form-control-sm" placeholder="예: 시트1" value="">
+        <div class="form-text text-secondary">Google Sheet 내부에서 사용할 시트 탭 이름입니다.</div>
+      </div>
+
+      <!-- 저장 버튼 -->
+      <div class="col-md-2 d-grid">
+        <button type="submit" class="btn btn-outline-info btn-sm mt-3">💾 저장</button>
+      </div>
+
+    </form>
+  </div>
+
+  <!-- 구글 시트 전송 섹션 -->
+   <h5 class="text-light mt-5 mb-3">📤 구글 시트 전송</h5>
+   <div class="text-white small">* 주문표를 구글 시트로 전송합니다. 구글시트의 L4셀부터 입력이 됩니다. 반드시 L4셀을 확인하세요.</div>
+  <div class="border bg-dark rounded p-3 mt-2 mb-4">
+
+    <!-- 0. 주문표 전송 옵션 -->
+    <div class="mb-4">
+      <div class="text-light small fw-bold mb-2">📋 주문표 전송 옵션</div>
+      <form method="POST" action="/account/2214/save_order_type" class="d-flex align-items-center gap-3" onsubmit="saveScrollPosition()">
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="order_type" id="order_type_normal" value="normal" checked="">
+          <label class="form-check-label text-light" for="order_type_normal">일반 주문표</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" type="radio" name="order_type" id="order_type_netted" value="netted">
+          <label class="form-check-label text-light" for="order_type_netted">퉁치기 주문표</label>
+        </div>
+        <button type="submit" class="btn btn-outline-info btn-sm">💾 저장</button>
+      </form>
+      <div class="form-text text-secondary mt-1">수동 전송과 자동 전송 모두 선택된 옵션으로 발송됩니다.</div>
+    </div>
+    <div class="small mb-3">
+
+      <!-- 제목줄 (주황색) -->
+      <div class="text-warning">
+        📌 <strong>필수 안내:</strong>  
+        구글 시트 전송을 위해서는 반드시 <strong>아래의 서비스계정</strong>을 본인의 구글 스프레드시트에 
+        <span class="text-info">편집자</span>로 공유해야 합니다.
+      </div>
+
+      <!-- 계정줄 (초록색) -->
+      <div class="text-white mt-1">
+        서비스계정: <code>radarpro-service-account@radarpro.iam.gserviceaccount.com</code>
+      </div>
+
+      <!-- 안내줄 (파란색) -->
+      <div class="text-white mt-1">
+        (위 계정을 복사하여 구글시트 → 공유 → 사용자 추가 → 
+        등록<span class="text-info">(편집자)</span>)
+      </div>
+    </div>
+
+
+    <!-- 2. 수동 전송하기 버튼 -->
+    <form method="POST" action="/account/2214/export" class="mb-4" onsubmit="saveScrollPosition()">
+      <div class="text-light small mb-2">
+        🖐 <strong>필요할 때 직접 전송할 수 있습니다.</strong> (테스트 겸용)
+      </div>
+      <div>
+        <button type="submit" class="btn btn-outline-success btn-sm">📤 수동 전송하기</button>
+      </div>
+    </form>
+    
+
+    <!-- 3. 자동 전송 설명 -->
+    <div class="text-light small mb-2">
+      ⏰ <strong>자동 전송 설정:</strong> 매일 지정한 시간에 현재 주문표를 구글 시트로 자동 전송합니다. (최대 30분의 지연시간이 있습니다. 30분 일찍 설정하세요)
+    </div>
+
+    <!-- 4. 자동 전송 시간 설정 -->
+    <form method="POST" action="/account/2214/save_auto_time" class="row g-2 align-items-center">
+      <div class="col-auto">
+        <label class="form-label text-light mb-0" for="auto_time">전송 시간</label>
+      </div>
+      <div class="col-auto">
+        <select id="auto_time" name="auto_send_time" class="form-select form-select-sm">
+             
+            
+              
+              <option value="11:00">11:00</option>
+            
+              
+              <option value="11:10">11:10</option>
+            
+              
+              <option value="11:20">11:20</option>
+            
+              
+              <option value="11:30">11:30</option>
+            
+              
+              <option value="11:40">11:40</option>
+            
+              
+              <option value="11:50">11:50</option>
+            
+             
+            
+              
+              <option value="12:00">12:00</option>
+            
+              
+              <option value="12:10">12:10</option>
+            
+              
+              <option value="12:20">12:20</option>
+            
+              
+              <option value="12:30">12:30</option>
+            
+              
+              <option value="12:40">12:40</option>
+            
+              
+              <option value="12:50">12:50</option>
+            
+             
+            
+              
+              <option value="13:00">13:00</option>
+            
+              
+              <option value="13:10">13:10</option>
+            
+              
+              <option value="13:20">13:20</option>
+            
+              
+              <option value="13:30">13:30</option>
+            
+              
+              <option value="13:40">13:40</option>
+            
+              
+              <option value="13:50">13:50</option>
+            
+             
+            
+              
+              <option value="14:00">14:00</option>
+            
+              
+              <option value="14:10">14:10</option>
+            
+              
+              <option value="14:20">14:20</option>
+            
+              
+              <option value="14:30">14:30</option>
+            
+              
+              <option value="14:40">14:40</option>
+            
+              
+              <option value="14:50">14:50</option>
+            
+             
+            
+              
+              <option value="15:00">15:00</option>
+            
+              
+              <option value="15:10">15:10</option>
+            
+              
+              <option value="15:20">15:20</option>
+            
+              
+              <option value="15:30">15:30</option>
+            
+              
+              <option value="15:40">15:40</option>
+            
+              
+              <option value="15:50">15:50</option>
+            
+             
+            
+              
+              <option value="16:00" selected="">16:00</option>
+            
+              
+              <option value="16:10">16:10</option>
+            
+              
+              <option value="16:20">16:20</option>
+            
+              
+              <option value="16:30">16:30</option>
+            
+              
+              <option value="16:40">16:40</option>
+            
+              
+              <option value="16:50">16:50</option>
+            
+             
+            
+              
+              <option value="17:00">17:00</option>
+            
+              
+              <option value="17:10">17:10</option>
+            
+              
+              <option value="17:20">17:20</option>
+            
+              
+              <option value="17:30">17:30</option>
+            
+              
+              <option value="17:40">17:40</option>
+            
+              
+              <option value="17:50">17:50</option>
+            
+             
+            
+              
+              <option value="18:00">18:00</option>
+            
+              
+              <option value="18:10">18:10</option>
+            
+              
+              <option value="18:20">18:20</option>
+            
+              
+              <option value="18:30">18:30</option>
+            
+              
+              <option value="18:40">18:40</option>
+            
+              
+              <option value="18:50">18:50</option>
+            
+             
+            
+              
+              <option value="19:00">19:00</option>
+            
+              
+              <option value="19:10">19:10</option>
+            
+              
+              <option value="19:20">19:20</option>
+            
+              
+              <option value="19:30">19:30</option>
+            
+              
+              <option value="19:40">19:40</option>
+            
+              
+              <option value="19:50">19:50</option>
+            
+             
+            
+              
+              <option value="20:00">20:00</option>
+            
+              
+              <option value="20:10">20:10</option>
+            
+              
+              <option value="20:20">20:20</option>
+            
+              
+              <option value="20:30">20:30</option>
+            
+              
+              <option value="20:40">20:40</option>
+            
+              
+              <option value="20:50">20:50</option>
+            
+             
+            
+              
+              <option value="21:00">21:00</option>
+            
+              
+              <option value="21:10">21:10</option>
+            
+              
+              <option value="21:20">21:20</option>
+            
+              
+              <option value="21:30">21:30</option>
+            
+              
+              <option value="21:40">21:40</option>
+            
+              
+              <option value="21:50">21:50</option>
+            
+             
+            
+              
+              <option value="22:00">22:00</option>
+            
+              
+              <option value="22:10">22:10</option>
+            
+              
+              <option value="22:20">22:20</option>
+            
+              
+              <option value="22:30">22:30</option>
+            
+              
+              <option value="22:40">22:40</option>
+            
+              
+              <option value="22:50">22:50</option>
+            
+             
+            
+              
+              <option value="23:00">23:00</option>
+            
+              
+              <option value="23:10">23:10</option>
+            
+              
+              <option value="23:20">23:20</option>
+            
+              
+              <option value="23:30">23:30</option>
+            
+              
+              <option value="23:40">23:40</option>
+            
+              
+              <option value="23:50">23:50</option>
+            
+          
+        </select>       
+      </div>
+      <div class="col-auto">
+        <button type="submit" class="btn btn-sm btn-outline-info">💾 저장</button>
+      </div>
+
+      
+        
+          
+          
+        
+    </form>
+
+    
+    <div class="mt-3 text-muted small">
+      <strong>마지막 전송 시간:</strong>
+      2026-04-01 16:01:11 (KST)<br>
+      <strong>전송 결과:</strong> ❌ 시트 ID가 제공되지 않았습니다.
+    </div>
+  
+</div>
+
+</div>
+
+<!-- Blur 상태인 경우 오버레이 표시 -->
+
+
+<!-- 모달 팝업 포함 (BuyMeACoffee 안내) -->
+<!-- templates/components/subscription_modal.html -->
+<div class="modal fade" id="subscribeModal" tabindex="-1" aria-labelledby="subscribeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content bg-dark text-light">
+      <div class="modal-header">
+        <h5 class="modal-title" id="subscribeModalLabel">🎟️ 정기후원 안내</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="닫기"></button>
+      </div>
+
+      <div class="modal-body">
+        <p>
+          레이더Pro의 부가기능 사용을 위해 정기후원이 필요합니다.<br>
+          해당 비용은 운영비(서버 비용, 유지보수 등)로 사용됩니다.
+        </p>
+
+        <!-- ✅ 기본 제공 기능 제목 -->
+        <p class="mt-3 mb-1 fw-bold">기본 기능 (무료)</p>
+        <ul class="small mb-4">
+          <li>추천 레이더</li>
+          <li>백테스트</li>
+          <li>통계</li>
+          <li>트레이딩 계좌 1개</li>
+          <li>주문표 확인</li>
+        </ul>
+
+        <!-- ✅ 부가기능 목록 안내 제목 -->
+        <p class="mt-3 mb-1 fw-bold text-primary">부가 기능 (월 $5.5)</p>
+        <ul class="small mb-4 list-unstyled">
+          <li class="mb-1">
+            <span class="text-info">📤 주문표를 구글 시트로 전송 (수동 &amp; 자동)</span>
+            <span class="text-muted"> (구글 시트 연동)</span>
+          </li>
+          <li class="mb-1">
+            <span class="text-info">📲 텔레그램 알림</span>
+          </li>
+          <li class="mb-1">
+            <span class="text-info">📂 트레이딩 계좌 최대 10개</span>
+          </li>
+          <li class="mb-1">
+            <span class="text-info">✏️ 수익 기록 (셀프 &amp; 자동)</span>
+          </li>
+          <li class="mb-1">
+            <span class="text-info">🧠 백테스트(추천전략)</span>
+          </li>
+          <li class="mb-1">
+            <span class="text-info">🔧 커스텀 전략 백테스트</span>
+          </li>
+          <li class="mb-1">
+            <span class="text-info">✨ 광고 제거</span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- 정기구독 버튼 -->
+      <div class="text-center my-4">        
+        <a href="https://www.patreon.com/14317173/join" target="_blank" class="btn btn-warning btn-lg fw-bold" style="
+            font-family: 'Cookie', cursive;
+            background-color: #368be0;
+            color: #000;
+            border: none;
+          ">
+          ☕ 후원하기
+        </a>
+        <p class="small text-muted mt-1">Patreon에서 후원하기</p>
+      </div>
+
+      <div class="text-center my-4 form-text text-muted small">
+        
+        [Help] 후원 과정에서 문제가 발생할 경우 아래 이메일로 문의해주세요.<br>
+        kanpro1099@gmail.com
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+    
+    
+
+
+  <!-- 모달 팝업 정의 -->
+<div class="modal fade" id="forceTerminateModal" tabindex="-1" aria-labelledby="forceTerminateModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content bg-dark text-light">
+        <div class="modal-header">
+          <h5 class="modal-title" id="forceTerminateModalLabel">⚠️ 새로 시작 확인</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="닫기"></button>
+        </div>
+        <div class="modal-body">
+          진행 중인 내용을 종료하고 새로 시작하겠습니까?<br>시작일은 오늘로 초기화됩니다.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">취소</button>
+          <form method="POST" action="/account/2214/force_reset">
+            <button type="submit" class="btn btn-danger">🚫 새로 시작</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- 삭제 확인 모달 -->
+<div class="modal fade" id="deleteConfirmModal" tabindex="-1" aria-labelledby="deleteConfirmModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content bg-dark text-light">
+      <div class="modal-header">
+        <h5 class="modal-title" id="deleteConfirmModalLabel">🗑 삭제 확인</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="닫기"></button>
+      </div>
+      <div class="modal-body">
+        ⚠️선택한 행을 삭제하시겠습니까?
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="modal">취소</button>
+        <button type="button" class="btn btn-danger btn-sm" id="confirmDeleteBtn">🗑 삭제</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+// 전역 변수
+const accountId = 2214;
+const defaultStrategy = "Pro3";
+let rowToDelete = null;
+
+const isSubscribed = true;
+
+// Flash 메시지 자동 사라짐
+window.addEventListener("DOMContentLoaded", function () {
+    const alerts = document.querySelectorAll(".alert[data-flash='true']");
+    alerts.forEach((alert) => {
+      setTimeout(() => {
+        alert.classList.add("fade");
+        setTimeout(() => alert.remove(), 1000);
+      }, 3000);
+    });
+});
+
+// Collapse 열기/닫기 및 스크롤 복원
+document.addEventListener("DOMContentLoaded", function () {
+  const collapseElem = document.getElementById("extraFeatures");
+  const shouldOpen = localStorage.getItem("collapseOpen");
+
+  if ((shouldOpen === "true" || isSubscribed === true || isSubscribed === 'true') && collapseElem) {
+    const bsCollapse = new bootstrap.Collapse(collapseElem, {
+      toggle: false
+    });
+    bsCollapse.show();
+
+    collapseElem.addEventListener("shown.bs.collapse", () => {
+      const scrollY = localStorage.getItem("scrollY");
+      if (scrollY !== null) {
+        window.scrollTo(0, parseInt(scrollY));
+        localStorage.removeItem("scrollY");
+        localStorage.removeItem("collapseOpen");
+      }
+    });
+  }
+});
+
+
+
+// 스크롤 위치 저장
+function saveScrollPosition() {
+  localStorage.setItem("scrollY", window.scrollY);
+}
+
+// 수익 기록 행 편집 모드
+function enterEditMode(button) {
+  const row = button.closest("tr");
+  const index = row.dataset.index;
+
+  const strategy = row.querySelector(".strategy-cell").innerText.trim();
+  const date = row.querySelector(".date-cell").innerText.trim();
+  const capital = row.querySelector(".capital-cell").innerText.replace(/[^\d.]/g, '');
+  const profit = row.querySelector(".profit-cell").innerText.replace(/[^\d.\-]/g, '');
+
+  row.querySelector(".strategy-cell").innerHTML = `
+    <select class="form-select form-select-sm" name="strategy">
+      <option value="Pro1" ${strategy === "Pro1" ? "selected" : ""}>Pro1</option>
+      <option value="Pro2" ${strategy === "Pro2" ? "selected" : ""}>Pro2</option>
+      <option value="Pro3" ${strategy === "Pro3" ? "selected" : ""}>Pro3</option>
+    </select>
+  `;
+  row.querySelector(".date-cell").innerHTML = `<input type="date" name="date" class="form-control form-control-sm text-center" value="${date}">`;
+  row.querySelector(".capital-cell").innerHTML = `<input type="number" step="1" name="capital" class="form-control form-control-sm text-end" value="${capital}">`;
+  row.querySelector(".profit-cell").innerHTML = `<input type="text" inputmode="decimal" pattern="^-?[0-9]*([.,][0-9]+)?$" name="profit" class="form-control form-control-sm text-end" value="${profit}">`;
+
+  // 수익률 업데이트 연동
+  setTimeout(() => {
+    row.querySelector('input[name="capital"]').addEventListener("input", () => updateProfitRate(row));
+    row.querySelector('input[name="profit"]').addEventListener("input", () => updateProfitRate(row));
+  }, 0);
+
+  row.querySelector("td:last-child").innerHTML = `
+    <button class="btn btn-sm btn-success me-1" onclick="saveProfitRow(${index}, this)">저장</button>
+    <button class="btn btn-sm btn-outline-danger" onclick="confirmRowDelete(this)">삭제</button>
+  `;
+}
+
+// 수익 기록 행 저장
+function saveProfitRow(index, btn) {
+  const row = btn.closest("tr");
+  const strategy = row.querySelector('select[name="strategy"]').value;
+  const date = row.querySelector('input[name="date"]').value;
+  const capital = row.querySelector('input[name="capital"]').value;
+  const profit = row.querySelector('input[name="profit"]').value;
+
+  fetch(`/account/${accountId}/save_profit_row`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      index, strategy, date, capital, profit
+    })
+  })
+  .then(res => res.json())
+  .then(data => {
+    if (data.success) {
+      // 성공 시 다시 보기 모드로 전환
+      row.querySelector(".strategy-cell").innerText = strategy;
+      row.querySelector(".date-cell").innerText = date;
+      row.querySelector(".capital-cell").innerText = `$${parseInt(capital)}`;
+      row.querySelector(".profit-cell").innerText = `$${parseFloat(profit).toFixed(2)}`;
+      const rate = parseFloat(data.profit_rate);
+      row.querySelector(".rate-cell").innerText = isNaN(rate) ? '-' : `${rate.toFixed(2)}%`;
+      row.querySelector("td:last-child").innerHTML = `
+        <button class="btn btn-sm btn-outline-info me-1" onclick="enterEditMode(this)">편집</button>
+        <button class="btn btn-sm btn-outline-danger" onclick="confirmRowDelete(this)">삭제</button>
+      `;
+
+      // ✅ 저장 후 소계/합계 갱신
+      updateProfitSummary();
+    } else {
+      alert("저장 실패");
+    }
+  });
+}
+
+function deleteProfitRow(row) {
+  const id = row.getAttribute("data-profit-id");
+
+  fetch(`/account/delete_profit/${id}`, {
+    method: "POST"
+  })
+    .then(res => {
+      if (!res.ok) throw new Error("HTTP 오류");
+
+      return res.json();
+    })
+    .then(data => {
+      if (data.success) {
+        row.remove();
+        updateProfitSummary();
+      } else {
+        alert("❌ 삭제 실패");
+      }
+    })
+    .catch(err => {
+      console.error("🚫 삭제 오류:", err);
+      alert("서버 오류로 삭제에 실패했습니다.");
+    });
+}
+
+
+// 행 삭제 확인
+function confirmRowDelete(button) {
+  rowToDelete = button.closest("tr");
+  const modal = new bootstrap.Modal(document.getElementById("deleteConfirmModal"));
+  modal.show();
+}
+
+document.getElementById("confirmDeleteBtn").addEventListener("click", function () {
+  if (rowToDelete) {
+    deleteProfitRow(rowToDelete);  // 👉 여기서 호출
+    rowToDelete.remove();
+    rowToDelete = null;
+  }
+
+  // 모달 닫기
+  const modal = bootstrap.Modal.getInstance(document.getElementById("deleteConfirmModal"));
+  if (modal) modal.hide();
+});
+
+// 수익 기록 행 추가
+function addProfitLogRow() {
+  // 1. 현재 계좌가 자동 기록 모드인지 확인
+  // (Jinja2 템플릿 변수를 통해 서버 사이드 상태를 JS에 전달)
+  const isAutoRecord = true;
+
+  if (isAutoRecord) {
+      alert("자동 기록 모드에서는 셀프 추가할 수 없습니다.");
+      return; // 함수 실행 중단
+  }
+  const table = document.getElementById("profitLogBody");
+  const row = table.insertRow();
+
+  const index = table.querySelectorAll("tr:not(.subtotal-row):not(.total-row)").length;
+  const yesterday = new Date(Date.now() - 86400000).toISOString().split("T")[0];
+
+  row.innerHTML = `    
+    <td>
+      <input type="date" name="profit_date_${index}" class="form-control form-control-sm text-center" value="${yesterday}">
+    </td>
+    <td>
+      <select name="profit_strategy_${index}" class="form-select form-select-sm text-center">
+        <option value="Pro1" ${defaultStrategy === 'Pro1' ? 'selected' : ''}>Pro1</option>
+        <option value="Pro2" ${defaultStrategy === 'Pro2' ? 'selected' : ''}>Pro2</option>
+        <option value="Pro3" ${defaultStrategy === 'Pro3' ? 'selected' : ''}>Pro3</option>
+      </select>
+    </td>
+    <td><input type="number" step="0.01" name="profit_capital_${index}" class="form-control form-control-sm text-center" value="35207.0"></td>
+    <td><input type="text" inputmode="decimal" pattern="^-?[0-9]*([.,][0-9]+)?$" name="profit_value_${index}" class="form-control form-control-sm text-center"></td>
+    <td class="text-info fw-bold">-</td>
+    <td>
+      <button type="button" class="btn btn-sm btn-success me-1" onclick="saveProfitRowFromNewRow(this)">저장</button>
+      <button type="button" class="btn btn-sm btn-outline-danger" onclick="this.closest('tr').remove();">삭제</button>
+    </td>
+  `;
+}
+
+function saveProfitRowFromNewRow(btn) {
+  const row = btn.closest("tr");
+  const newDate = row.querySelector('input[name^="profit_date_"]').value;
+
+  // ✅ 중복 날짜 검사
+  const existingDates = Array.from(document.querySelectorAll(".date-cell"))
+    .map(cell => cell.innerText.trim());
+
+  if (existingDates.includes(newDate)) {
+    alert("❌ 동일한 날짜가 이미 있습니다.");
+    return;  // 저장 중단
+  }
+
+  const strategy = row.querySelector('select[name^="profit_strategy_"]').value;
+  const date = row.querySelector('input[name^="profit_date_"]').value;
+  const capital = row.querySelector('input[name^="profit_capital_"]').value;
+  const profit = row.querySelector('input[name^="profit_value_"]').value;
+
+  // collapse, scroll 상태 저장
+  localStorage.setItem("scrollY", window.scrollY);
+  localStorage.setItem("collapseOpen", "true");
+  
+  fetch(`/account/${accountId}/save_profit_row`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      strategy, date, capital, profit, index: -1  // index는 새행 표시용
+    })
+  })
+  .then(res => res.json())
+  .then(data => {
+    if (data.success) {
+      // 저장 후 페이지를 새로 고침하거나, updateProfitSummary() 호출
+      location.reload();  // 또는 updateProfitSummary();
+    } else {
+      alert("저장 실패");
+    }
+  });
+}
+
+// ✅ 수익률 계산 함수 (입력값 변경 시 자동 호출)
+function updateProfitSummary() {
+  const rows = Array.from(document.querySelectorAll("#profitLogBody tr.profit-row"));
+  const table = document.getElementById("profitLogBody");
+
+  // 기존 소계/합계 제거
+  document.querySelectorAll(".subtotal-row, .total-row").forEach(e => e.remove());
+
+  let currentMonth = null;
+
+  // 월 누적 값
+  let monthlyProfit = 0;
+  let monthlyFirstCapital = null;   // ★ 그 달의 첫 행 시드
+
+  // 전체(합계) 누적은 '소계'를 바탕으로 계산
+  let subtotalProfitSum = 0;
+  let subtotalCapitalSum = 0;       // ★ 각 달의 '첫 시드' 합
+  let subtotalCount = 0;
+
+  for (let i = 0; i < rows.length; i++) {
+    const row = rows[i];
+
+    // 1. 셀렉터로 엘리먼트 먼저 찾기
+    const dateCell    = row.querySelector(".date-cell");
+    const capitalCell = row.querySelector(".capital-cell");
+    const profitCell  = row.querySelector(".profit-cell");
+    const rateCell    = row.querySelector(".rate-cell");
+
+    // 2. 사파리 호환성을 위해 innerText 대신 textContent 사용 및 전처리
+    // replace(/[^\d.-]/g, '') : 숫자, 소수점(.), 마이너스(-)만 남기고 제거 ($ 등 특수문자 제거)
+    const rawDate    = dateCell ? dateCell.textContent.trim() : "";
+    const rawCapital = capitalCell ? capitalCell.textContent.trim().replace(/[^\d.]/g, '') : "";
+    const rawProfit  = profitCell ? profitCell.textContent.trim().replace(/[^\d.-]/g, '') : "";
+
+    // 3. 숫자 파싱
+    const capital = parseFloat(rawCapital);
+    const profit  = parseFloat(rawProfit);
+    const month   = rawDate ? rawDate.slice(0, 7) : ""; // 예: "2025-12"
+
+    if (!isNaN(capital) && capital > 0) {
+      const rate = (profit / capital * 100).toFixed(2);
+      rateCell.innerText = `${rate}%`;
+      rateCell.style.color = (parseFloat(rate) < 0) ? '#3498db' : '#ff7f7f';
+    } else {
+      rateCell.innerText = "-";
+      rateCell.style.color = '';
+    }
+    if (profit > 0) {
+      profitCell.style.color = '#ff7f7f';
+    } else if (profit < 0) {
+      profitCell.style.color = '#3498db';
+    } else {
+      profitCell.style.color = '';
+    }
+
+    // 월 경계 초기화
+    if (currentMonth === null) currentMonth = month;
+
+    // ★ 새 달 진입 시, 해당 달의 '첫 시드' 세팅
+    if (month !== currentMonth) {
+      // (이 블록 이전에 직전 달 소계를 만들어야 하므로, 로직 순서를 아래 '달 종료 처리'에서 다룹니다)
+    }
+
+    // 월 누적
+    if (month === currentMonth) {
+      monthlyProfit += profit;
+      if (monthlyFirstCapital === null && !isNaN(capital)) {
+        monthlyFirstCapital = capital;   // ★ 달의 첫 행에서만 세팅
+      }
+    }
+
+    // 다음 행의 달 확인 (innerText -> textContent로 변경)
+    const nextRow = rows[i + 1];
+    let nextMonth = null;
+    if (nextRow) {
+        const nextDateCell = nextRow.querySelector(".date-cell");
+        // textContent를 사용하고 trim()으로 혹시 모를 공백 제거
+        nextMonth = nextDateCell ? nextDateCell.textContent.trim().slice(0, 7) : null;
+    }
+
+    // ▶ 달 종료 처리: 소계 행 추가
+    if (month !== nextMonth) {
+      const baseCapital = (typeof monthlyFirstCapital === 'number') ? monthlyFirstCapital : 0;
+      const rate = (baseCapital > 0) ? (monthlyProfit / baseCapital * 100).toFixed(2) : "-";
+
+      const usdToKrw = 1511.07;      
+      const monthlyProfitKRW = usdToKrw ? Math.round(monthlyProfit * usdToKrw).toLocaleString('ko-KR') : "0";
+
+      const subtotalRow = document.createElement("tr");
+      subtotalRow.className = "subtotal-row table-success table-bordered text-end fw-bold";
+      subtotalRow.innerHTML = `
+        <td colspan="2" class="text-dark text-center">${currentMonth} 소계</td>
+        <td class="text-end text-dark subtotal-capital">$${(baseCapital || 0).toFixed(0)}</td>
+        <td class="text-end subtotal-profit">
+          <div>$${monthlyProfit.toFixed(2)}</div>
+          <div class="small">(${monthlyProfitKRW}원)</div>
+        </td>
+        <td class="text-end subtotal-rate">${rate}%</td>
+        <td></td>
+      `;
+      row.insertAdjacentElement("afterend", subtotalRow);
+
+      // 소계 색상 처리
+      const scProfitCell = subtotalRow.querySelector(".subtotal-profit");
+      const scRateCell   = subtotalRow.querySelector(".subtotal-rate");
+      const profitValue  = monthlyProfit;
+      const rateValue    = parseFloat(rate);
+
+      if (scProfitCell) {
+        scProfitCell.style.color = (profitValue < 0) ? '#0000CC' : (profitValue > 0 ? '#CC0000' : '');
+      }
+      if (scRateCell) {
+        if (!isNaN(rateValue)) {
+          scRateCell.style.color = (rateValue < 0) ? '#0000CC' : (rateValue > 0 ? '#CC0000' : '');
+        }
+      }
+
+
+      // ▶ 전체 합계용 누적 (소계 기준)
+      subtotalProfitSum += monthlyProfit;
+      subtotalCapitalSum += (baseCapital || 0);
+      subtotalCount++;
+
+      // 다음 달로 초기화
+      currentMonth = nextMonth;
+      monthlyProfit = 0;
+      monthlyFirstCapital = null;
+    }
+  }
+
+  // (선택) 전체 합계 행이 필요하면 아래 주석 해제해서 사용
+  /*
+  const avgTotalCapital = subtotalCount > 0 ? (subtotalCapitalSum / subtotalCount) : 0;
+  const totalRate = avgTotalCapital > 0 ? (subtotalProfitSum / avgTotalCapital * 100).toFixed(2) : "-";
+
+  const totalRow = document.createElement("tr");
+  totalRow.className = "total-row table-light text-end fw-bold";
+  totalRow.innerHTML = `
+    <td colspan="2" class="text-center">시드(월 첫값) 평균 | 수익합계</td>
+    <td class="text-end">$${avgTotalCapital.toFixed(0)}</td>
+    <td class="text-end total-profit">$${subtotalProfitSum.toFixed(2)}</td>
+    <td class="text-end total-rate">${totalRate}%</td>
+    <td></td>
+  `;
+  table.appendChild(totalRow);
+
+  // 합계 색상
+  const totalProfitCell = totalRow.querySelector(".total-profit");
+  const totalRateCell   = totalRow.querySelector(".total-rate");
+  if (subtotalProfitSum > 0) totalProfitCell.style.color = '#ff7f7f';
+  else if (subtotalProfitSum < 0) totalProfitCell.style.color = '#3498db';
+
+  if (totalRate !== '-' && parseFloat(totalRate) >= 0) totalRateCell.style.color = '#ff7f7f';
+  else if (totalRate !== '-' && parseFloat(totalRate) < 0) totalRateCell.style.color = '#3498db';
+  */
+
+  // --- 여기부터 합계 계산 추가 ---
+  let totalProfit = 0;
+
+  rows.forEach(row => {
+    const profitText = row.querySelector(".profit-cell")?.innerText.replace(/[^\d.\-]/g, '');
+    const profit = parseFloat(profitText || 0);
+    totalProfit += isNaN(profit) ? 0 : profit;
+  });
+
+  const summaryEl = document.getElementById("totalProfitSummary");
+  if (summaryEl) {
+    const EPS = 1e-9;
+    if (Math.abs(totalProfit) < EPS) {
+      summaryEl.style.display = "none";      // 0이면 숨김
+    } else {
+      const usdToKrw = 1511.07;
+      const profitUSD = totalProfit.toFixed(2);
+      const profitKRW = usdToKrw ? Math.round(totalProfit * usdToKrw).toLocaleString('ko-KR') : "0";
+
+      summaryEl.textContent = `총 수익금 : $${profitUSD} (${profitKRW}원)`;
+
+      const color = (totalProfit < 0) ? "#3498db" : "#ff7f7f";
+      summaryEl.style.setProperty("color", color, "important");
+
+      summaryEl.style.display = "";           // 보이기
+    }
+  }
+}
+
+// ✅ 페이지 로드 후 자동 계산 실행
+document.addEventListener("DOMContentLoaded", updateProfitSummary);
+
+</script>
+  
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const select = document.getElementById("symbolSelect");
+    if (!select || select.disabled) return;  // ✅ edit_mode 아닐 때 무시
+
+    const originalValue = select.value;
+
+    select.addEventListener("change", function () {
+      const selectedOption = select.selectedOptions[0];
+
+      if (selectedOption.dataset.premium === "true") {
+        const modal = new bootstrap.Modal(document.getElementById('premiumModal'));
+        modal.show();
+
+        // 선택 원복
+        select.value = originalValue;
+      }
+    });
+
+    // ✅ 설정 저장 전 시작일 검증
+    const form = document.getElementById("account-settings-form");
+    if (form) {
+      form.addEventListener("submit", function (e) {
+        const startDateInput = form.querySelector('input[name="start_date"]');
+        if (!startDateInput || startDateInput.disabled) return;
+
+        const today = new Date();
+        const yyyy = today.getFullYear();
+        const mm = String(today.getMonth() + 1).padStart(2, '0');
+        const dd = String(today.getDate()).padStart(2, '0');
+        const todayStr = `${yyyy}-${mm}-${dd}`;
+
+        if (startDateInput.value !== todayStr) {
+          e.preventDefault();
+          alert("시작일이 오늘인 경우만 전략을 변경할 수 있습니다.\n새로 시작 버튼을 눌러서 시작일을 오늘로 변경하세요.");
+          // 편집 모드 해제 (입력값 롤백 + 비편집 상태로 원복)
+          window.location.href = window.location.pathname;
+        }
+      });
+    }
+  });
+</script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const toggleButtons = document.querySelectorAll('.toggle-month');
+
+    toggleButtons.forEach(btn => {
+      btn.addEventListener('click', function () {
+        const month = this.dataset.month;
+        const rows = document.querySelectorAll(`.month-${month}`);
+        const isHidden = [...rows].every(row => row.style.display === 'none');
+
+        rows.forEach(row => {
+          row.style.display = isHidden ? 'table-row' : 'none';
+        });
+
+        // 버튼 텍스트 변경
+        this.textContent = isHidden ? '▼' : '▶';
+      });
+    });
+  });
+</script>
+
+
+
+<script>
+(function () {
+  const $cb = document.getElementById('auto_recommend');
+  const $status = document.getElementById('autoRecommendStatus');
+  if (!$cb) return;
+
+  const getCsrf = () => {
+    const m = document.querySelector('meta[name="csrf-token"]');
+    return m ? m.getAttribute('content') : null;
+  };
+
+  const updateStatus = (on) => {
+    if (!$status) return;
+    $status.textContent = on ? "[ ON ]" : "[ OFF ]";
+    $status.classList.toggle("text-success", on);
+    $status.classList.toggle("text-secondary", !on);
+  };
+
+  $cb.addEventListener('change', async (e) => {
+    const url = e.target.dataset.url;
+    if (!url) return;
+
+    const next = e.target.checked;
+    e.target.disabled = true;
+
+    try {
+      const res = await fetch(url, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          ...(getCsrf() ? {'X-CSRFToken': getCsrf()} : {})
+        },
+        body: JSON.stringify({ enabled: next })
+      });
+      const data = await res.json().catch(() => ({}));
+
+      if (!res.ok || !data.ok) {
+        e.target.checked = !next;
+        updateStatus(!next);
+        const msg = (data && data.message) ? data.message : '저장 실패';
+        alert(msg);
+      } else {
+        updateStatus(next);
+        alert('적용되었습니다');        
+      }
+    } catch (err) {
+      e.target.checked = !next;
+      updateStatus(!next);
+      if (window.toast) toast('통신 오류로 저장하지 못했습니다.', 'danger');
+      else alert('통신 오류로 저장하지 못했습니다.');
+    } finally {
+      e.target.disabled = false;
+    }
+  });
+})();
+
+
+function toggleAutoRecord(accountId) {
+
+  const checkbox = document.getElementById('autoRecordSwitch');
+  const isTurningOn = checkbox.checked; // 현재 체크된 상태 (ON을 시도하는 경우)
+  const autoCompoundingCheckbox = document.getElementById('autoCompoundingSwitch');
+  const isAutoCompoundingOn = autoCompoundingCheckbox && autoCompoundingCheckbox.checked;
+  
+  // 1. ON 할 때만 조건 체크
+  if (isTurningOn) {
+      const startDateStr = checkbox.dataset.startDate; // "2023-10-27" 형태
+      const today = new Date();
+      
+      // 날짜 포맷팅 (YYYY-MM-DD 형식으로 맞춤)
+      const year = today.getFullYear();
+      const month = String(today.getMonth() + 1).padStart(2, '0');
+      const day = String(today.getDate()).padStart(2, '0');
+      const todayStr = `${year}-${month}-${day}`;
+
+      if (startDateStr !== todayStr) {
+          alert("사이클 시작일이 오늘인 경우에만 활성화할 수 있습니다. (새 사이클 시작 시)");
+          checkbox.checked = false; // 체크박스 해제
+          return;
+      }
+  } else {
+      // OFF 할 때, 자동 재투자가 ON이면 함께 OFF시키기
+      if (isAutoCompoundingOn) {
+          if (!confirm("자동 기록 모드를 OFF하면 자동 재투자도 함께 OFF됩니다.\n계속하시겠습니까?")) {
+              // 취소 시 체크박스 원복
+              checkbox.checked = !checkbox.checked;
+              return;
+          }
+          // 자동 재투자도 OFF로 변경 (API 호출)
+          toggleAutoCompoundingOff(accountId);
+          return;
+      }
+  }
+
+  if (!confirm("기록 모드를 변경하시겠습니까?")) {
+      // 취소 시 체크박스 원복
+      document.getElementById('autoRecordSwitch').checked = !document.getElementById('autoRecordSwitch').checked;
+      return;
+  }
+
+  fetch(`/api/account/${accountId}/toggle-auto-record`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' }
+  })
+  .then(res => res.json())
+  .then(data => {
+      if (data.success) {
+          // 모드 변경 후 UI 동기화를 위해 페이지 새로고침
+          location.reload();
+      } else {
+          alert("설정 변경 중 오류가 발생했습니다.");
+      }
+  })
+  .catch(err => console.error("Error:", err));
+}
+
+// 자동 재투자를 OFF하는 헬퍼 함수
+function toggleAutoCompoundingOff(accountId) {
+    const autoCompoundingCheckbox = document.getElementById('autoCompoundingSwitch');
+    autoCompoundingCheckbox.checked = false;
+
+    fetch(`/api/account/${accountId}/toggle-auto-compounding`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' }
+    })
+    .then(res => res.json())
+    .then(data => {
+        if (data.success) {
+            // 자동 재투자 OFF 후 자동 기록 모드 OFF 진행
+            toggleAutoRecordContinue(accountId);
+        } else {
+            alert("자동 재투자 설정 변경 중 오류가 발생했습니다.");
+            autoCompoundingCheckbox.checked = true;
+        }
+    })
+    .catch(err => {
+        console.error("Error:", err);
+        autoCompoundingCheckbox.checked = true;
+    });
+}
+
+// 자동 기록 모드를 계속 OFF하는 헬퍼 함수
+function toggleAutoRecordContinue(accountId) {
+    fetch(`/api/account/${accountId}/toggle-auto-record`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' }
+    })
+    .then(res => res.json())
+    .then(data => {
+        if (data.success) {
+            alert("자동 재투자가 함께 OFF되었습니다.\n(자동 기록 모드는 OFF로 변경됩니다.)");
+            location.reload();
+        } else {
+            alert("설정 변경 중 오류가 발생했습니다.");
+            document.getElementById('autoRecordSwitch').checked = true;
+        }
+    })
+    .catch(err => {
+        console.error("Error:", err);
+        document.getElementById('autoRecordSwitch').checked = true;
+    });
+}
+
+function toggleAutoCompounding(accountId) {
+    const checkbox = document.getElementById('autoCompoundingSwitch');
+    const isTurningOn = checkbox.checked;
+    
+    // ✅ [추가] 자동 기록 모드 체크 (문자열 "true"와 비교)
+    const isAutoRecordOn = checkbox.dataset.autoRecord === 'true';
+
+    if (isTurningOn && !isAutoRecordOn) {
+        alert("자동 재투자 기능을 켜려면 먼저 '자동 기록 모드'를 활성화해야 합니다.");
+        checkbox.checked = false; // 스위치 끄기
+        return;
+    }
+
+    // 변경 확인 컨펌
+    const msg = isTurningOn 
+        ? "자동 재투자를 활성화하시겠습니까?\n(손익 발생 시 다음 사이클 시드에 자동으로 적용됩니다.)" 
+        : "자동 재투자를 비활성화하시겠습니까?";
+
+    if (!confirm(msg)) {
+        checkbox.checked = !isTurningOn;
+        return;
+    }
+
+    // API 요청
+    fetch(`/api/account/${accountId}/toggle-auto-compounding`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' }
+    })
+    .then(res => res.json())
+    .then(data => {
+        if (data.success) {
+            location.reload();
+        } else {
+            alert("설정 변경 중 오류가 발생했습니다.");
+            checkbox.checked = !isTurningOn;
+        }
+    })
+    .catch(err => {
+        console.error("Error:", err);
+        checkbox.checked = !isTurningOn;
+    });
+}
+</script>
+
+
+
+
+
+
+
+    
+    
+
+    
+
+
+    <div id="fixedSidebar" class="d-none d-md-block">
+      
+      <h6 class="mb-2">📅 최근 주가 (SOXL)</h6>
+      <table class="table table-sm table-dark table-bordered text-center mb-0">
+        <thead>
+          <tr class="table-secondary text-dark text-center">
+            <th>날짜</th>
+            <th>종가</th>
+          </tr>
+        </thead>
+        <tbody class="text-start">
+          
+            
+            
+            
+            <tr>
+              <td>2026-04-02</td>
+              <td style="color: #ff5370;">
+                52.75 (▲0.94%)
+              </td>
+            </tr>
+          
+            
+            
+            
+            <tr>
+              <td>2026-04-01</td>
+              <td style="color: #ff5370;">
+                52.26 (▲9.08%)
+              </td>
+            </tr>
+          
+            
+            
+            
+            <tr>
+              <td>2026-03-31</td>
+              <td style="color: #ff5370;">
+                47.91 (▲17.95%)
+              </td>
+            </tr>
+          
+            
+            
+            
+            <tr>
+              <td>2026-03-30</td>
+              <td style="color: #26c6da;">
+                40.62 (▼12.85%)
+              </td>
+            </tr>
+          
+            
+            
+            
+            <tr>
+              <td>2026-03-27</td>
+              <td style="color: #26c6da;">
+                46.61 (▼4.82%)
+              </td>
+            </tr>
+          
+            
+            
+            
+            <tr>
+              <td>2026-03-26</td>
+              <td style="color: #26c6da;">
+                48.97 (▼14.15%)
+              </td>
+            </tr>
+          
+            
+            
+            
+            <tr>
+              <td>2026-03-25</td>
+              <td style="color: #ff5370;">
+                57.04 (▲3.78%)
+              </td>
+            </tr>
+          
+            
+            
+            
+            <tr>
+              <td>2026-03-24</td>
+              <td style="color: #ff5370;">
+                54.96 (▲3.64%)
+              </td>
+            </tr>
+          
+            
+            
+            
+            <tr>
+              <td>2026-03-23</td>
+              <td style="color: #ff5370;">
+                53.03 (▲3.70%)
+              </td>
+            </tr>
+          
+            
+            
+            
+            <tr>
+              <td>2026-03-20</td>
+              <td style="color: #26c6da;">
+                51.14 (▼6.76%)
+              </td>
+            </tr>
+          
+        </tbody>
+      </table>
+
+      
+      
+    </div>
+
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+      
+      window.addEventListener("DOMContentLoaded", function () {
+        const alerts = document.querySelectorAll(".alert[data-flash='true']");
+        alerts.forEach((alert) => {
+          setTimeout(() => {
+            alert.classList.add("fade");
+            setTimeout(() => alert.remove(), 1000);
+          }, 3000);
+        });
+      });
+    </script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const select = document.querySelector("select[name='symbol']");
+        if (!select) return;
+
+        const originalValue = select.value;
+
+        select.addEventListener("change", function () {
+          const selectedOption = select.selectedOptions[0];
+
+          if (selectedOption.dataset.premium === "true") {
+            
+            const modal = new bootstrap.Modal(
+              document.getElementById("premiumModal")
+            );
+            modal.show();
+
+            
+            select.value = originalValue;
+          }
+        });
+      });
+    </script>
+
+
+    <div class="modal fade" id="premiumModal" tabindex="-1" aria-labelledby="premiumModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content bg-dark text-light">
+          <div class="modal-header">
+            <h5 class="modal-title" id="premiumModalLabel">⛔ 부가 기능</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="닫기"></button>
+          </div>
+          <div class="modal-body">
+            부가 기능은 <strong>정기 후원 시</strong> 사용할 수 있습니다.<br>
+            후원 후 이용해주세요 😊
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+              확인
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+<iframe name="googlefcPresent" style="display: none; width: 0px; height: 0px; border: none; z-index: -1000; left: -1000px; top: -1000px;"></iframe><iframe name="__tcfapiLocator" src="about:blank" style="display: none; width: 0px; height: 0px; border: none; z-index: -1000; left: -1000px; top: -1000px;"></iframe><iframe name="googlefcInactive" src="about:blank" style="display: none; width: 0px; height: 0px; border: none; z-index: -1000; left: -1000px; top: -1000px;"></iframe><iframe name="googlefcLoaded" src="about:blank" style="display: none; width: 0px; height: 0px; border: none; z-index: -1000; left: -1000px; top: -1000px;"></iframe><iframe src="https://www.google.com/recaptcha/api2/aframe" width="0" height="0" style="display: none;"></iframe></body><iframe id="google_esf" name="google_esf" src="https://googleads.g.doubleclick.net/pagead/html/r20260401/r20190131/zrt_lookup_fy2021.html" style="display: none;"></iframe><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+      div.grammarly-desktop-integration {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select:none;
+        user-select:none;
+      }
+
+      div.grammarly-desktop-integration:before {
+        content: attr(data-content);
+      }
+    </style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>

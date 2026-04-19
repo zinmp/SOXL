@@ -1,0 +1,76 @@
+{
+  "EVAL_WINDOW": 22,
+  "STRATEGIES": {
+    "Pro1": {
+      "splits": [0.08, 0.12, 0.15, 0.20, 0.21, 0.24],
+      "stop_loss_days": 10,
+      "buy_pct": -0.003,
+      "sell_pct": 0.010,
+      "buy_on_stop": true,
+      "exclude_uptrend": true,
+      "crash_buy": {
+        "enabled": true,
+        "threshold": -0.075,
+        "alloc": 0.15,
+        "sell_pct": 0.025,
+        "stop_loss_days": 10,
+        "max_concurrent": 2
+      }
+    },
+    "Pro2": {
+      "splits": [0.07, 0.10, 0.14, 0.20, 0.24, 0.25],
+      "stop_loss_days": 10,
+      "buy_pct": -0.003,
+      "sell_pct": 0.010,
+      "buy_on_stop": true,
+      "exclude_uptrend": false,
+      "crash_buy": {
+        "enabled": true,
+        "threshold": -0.075,
+        "alloc": 0.12,
+        "sell_pct": 0.025,
+        "stop_loss_days": 10,
+        "max_concurrent": 2
+      }
+    },
+    "Pro3": {
+      "splits": [0.08, 0.12, 0.15, 0.20, 0.21, 0.24],
+      "stop_loss_days": 10,
+      "buy_pct": -0.007,
+      "sell_pct": 0.042,
+      "buy_on_stop": true,
+      "exclude_uptrend": false,
+      "crash_buy": {
+        "enabled": true,
+        "threshold": -0.075,
+        "alloc": 0.15,
+        "sell_pct": 0.025,
+        "stop_loss_days": 10,
+        "max_concurrent": 3
+      }
+    }
+  },
+  "BASELINE_STRATEGIES": {
+    "Pro1": {
+      "splits": [0.05, 0.1, 0.15, 0.2, 0.25, 0.25],
+      "stop_loss_days": 10,
+      "buy_pct": -0.001,
+      "sell_pct": 0.002,
+      "buy_on_stop": true
+    },
+    "Pro2": {
+      "splits": [0.1, 0.15, 0.2, 0.25, 0.2, 0.1],
+      "stop_loss_days": 10,
+      "buy_pct": -0.002,
+      "sell_pct": 0.018,
+      "buy_on_stop": true
+    },
+    "Pro3": {
+      "splits": [0.16666666666666666, 0.16666666666666666, 0.16666666666666666, 0.16666666666666666, 0.16666666666666666, 0.16666666666666666],
+      "stop_loss_days": 10,
+      "buy_pct": -0.003,
+      "sell_pct": 0.025,
+      "buy_on_stop": true
+    }
+  }
+}
