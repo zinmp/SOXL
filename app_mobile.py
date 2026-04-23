@@ -241,15 +241,15 @@ with tab1:
         # [MOBILE] 매수 신호를 큰 마크다운 텍스트로 강조
         if not buy_signal_possible:
             st.markdown(
-                "<div style='background:#ffebee;border-left:5px solid #e53935;"
-                "padding:16px;border-radius:8px;font-size:1.3em;font-weight:bold'>"
+                "<div style='background:#b71c1c;border-left:5px solid #e53935;"
+                "padding:16px;border-radius:8px;font-size:1.3em;font-weight:bold;color:#ffffff'>"
                 "🔒 모든 슬롯 채워짐 — 오늘 매수 없음</div>",
                 unsafe_allow_html=True,
             )
         elif buy_condition_met:
             st.markdown(
-                f"<div style='background:#e8f5e9;border-left:5px solid #43a047;"
-                f"padding:16px;border-radius:8px;font-size:1.3em;font-weight:bold'>"
+                f"<div style='background:#1a7f3c;border-left:5px solid #43a047;"
+                f"padding:16px;border-radius:8px;font-size:1.3em;font-weight:bold;color:#ffffff'>"
                 f"🟢 매수 신호 있음!<br>"
                 f"<span style='font-size:0.8em;font-weight:normal'>"
                 f"오늘 수익률 {today_ret*100:+.2f}% ≤ 기준 {params['buy_pct']*100:+.2f}%"
@@ -258,8 +258,8 @@ with tab1:
             )
         else:
             st.markdown(
-                f"<div style='background:#e3f2fd;border-left:5px solid #1e88e5;"
-                f"padding:16px;border-radius:8px;font-size:1.2em;font-weight:bold'>"
+                f"<div style='background:#1565c0;border-left:5px solid #1e88e5;"
+                f"padding:16px;border-radius:8px;font-size:1.2em;font-weight:bold;color:#ffffff'>"
                 f"🔵 매수 조건 미충족<br>"
                 f"<span style='font-size:0.8em;font-weight:normal'>"
                 f"수익률 {today_ret*100:+.2f}% > 기준 {params['buy_pct']*100:+.2f}%"
