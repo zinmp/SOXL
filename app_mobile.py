@@ -105,11 +105,12 @@ with st.expander("⚠️ 투자 위험 고지 (클릭하여 확인)"):
     )
 
 # ── 탭 정의 — 모바일: 이름 축약 ──────────────────────────────────
-tab_today, tab_account, tab_backtest, tab_agent, tab_input, tab_error = st.tabs([
+tab_today, tab_account, tab_backtest, tab_agent, tab_strategy, tab_input, tab_error = st.tabs([
     "📡 오늘",      # 오늘 추천
     "💼 계좌",      # 내 계좌
     "📊 통계",      # 백테스트 통계
     "🤖 AI",        # 금융 에이전트
+    "📈 전략",      # AI 최적화 전략
     "📥 입력",      # 데이터 입력
     "🔍 오차",      # 오차 & 조정
 ])
@@ -968,6 +969,133 @@ with tab4:
 
     st.divider()
 
+    # ══════════════════════════════════════════════════════════════
+    # 전략 성능 종합 비교: 원본 사이트 vs 우리 전략
+    # ══════════════════════════════════════════════════════════════
+    st.subheader("📋 전략 성능 종합 비교")
+    st.caption(
+        "**원본 사이트 기준** (TC=0, 원본 파라미터) vs "
+        "**우리 전략·기본** (TC=0, 개선 파라미터) vs "
+        "**우리 전략·실전** (TC 0.1% 적용, 가격손절 비활성) — 2010~현재 연간 수익률 기준"
+    )
+
+    _RISK_FREE = 0.045  # 미국 10Y 기준금리 근사값 (4.5%)
+
+    def _compute_perf_mobile(df_src, strategies_dict, tc=0.0, price_stop=None):
+        """연도별 수익률 리스트 → 종합 성능 지표 dict 반환."""
+        results = {name: [] for name in strategies_dict}
+        years = sorted(df_src.index.year.unique())
+        for year in years:
+            mask = df_src.index.year == year
+            if mask.sum() < 5:
+                continue
+            prices = df_src.loc[mask, "close"]
+            for name, sp in strategies_dict.items():
+                ret, mdd = run_backtest(
+                    prices=prices,
+                    splits=sp["splits"],
+                    buy_pct=sp["buy_pct"],
+                    sell_pct=sp["sell_pct"],
+                    stop_loss_days=sp["stop_loss_days"],
+                    buy_on_stop=sp["buy_on_stop"],
+                    transaction_cost=tc,
+                    price_stop_loss_pct=price_stop,
+                )
+                results[name].append((year, ret, mdd))
+        return results
+
+    def _summary_mobile(name, data):
+        """(year, ret, mdd) 리스트 → 지표 dict."""
+        if not data:
+            return {}
+        rets = np.array([r for _, r, _ in data])
+        mdds = np.array([m for _, _, m in data])
+        mean_r  = float(np.mean(rets))
+        std_r   = float(np.std(rets, ddof=1)) if len(rets) > 1 else 0.0
+        sharpe  = (mean_r - _RISK_FREE * 100) / std_r if std_r > 0 else 0.0
+        cum_ret = float(np.sum(rets))
+        worst_dd = float(np.min(mdds))
+        worst_yr = int(data[np.argmin(rets)][0])
+        return {
+            "전략":       name,
+            "합산수익률": f"{cum_ret:+.1f}%",
+            "평균연수익": f"{mean_r:+.1f}%",
+            "샤프지수":   f"{sharpe:.2f}",
+            "최대MDD":    f"{worst_dd:.1f}%",
+            "최저연도":   worst_yr,
+        }
+
+    if st.button("📊 종합 비교 계산", type="primary", key="btn_compare_mobile", use_container_width=True):
+        try:
+            df_cmp_m, _ = load_data_cached()
+
+            with st.spinner("세 가지 조건으로 계산 중..."):
+                site_res_m  = _compute_perf_mobile(df_cmp_m, BASELINE_STRATEGIES, tc=0.0, price_stop=None)
+                ours_base_m = _compute_perf_mobile(df_cmp_m, STRATEGIES,          tc=0.0, price_stop=None)
+                ours_real_m = _compute_perf_mobile(df_cmp_m, STRATEGIES,          tc=TRANSACTION_COST, price_stop=PRICE_STOP_LOSS_PCT)
+
+            for name in ["Pro1", "Pro2", "Pro3"]:
+                st.markdown(f"#### {name}")
+                s_m  = _summary_mobile(name, site_res_m[name])
+                ob_m = _summary_mobile(name, ours_base_m[name])
+                or_m = _summary_mobile(name, ours_real_m[name])
+
+                cmp_rows_m = []
+                for metric in ["합산수익률", "평균연수익", "샤프지수", "최대MDD", "최저연도"]:
+                    cmp_rows_m.append({
+                        "지표":          metric,
+                        "원본 사이트":   s_m.get(metric, "-"),
+                        "우리(TC=0)":    ob_m.get(metric, "-"),
+                        "우리(TC+손절)": or_m.get(metric, "-"),
+                    })
+                st.dataframe(pd.DataFrame(cmp_rows_m), use_container_width=True, hide_index=True)
+
+                with st.expander(f"{name} 연도별 수익률 상세"):
+                    yr_rows_m = []
+                    site_dict_m = {y: (r, md) for y, r, md in site_res_m[name]}
+                    ours_dict_m = {y: (r, md) for y, r, md in ours_base_m[name]}
+                    real_dict_m = {y: (r, md) for y, r, md in ours_real_m[name]}
+                    for yr in sorted(set(site_dict_m) | set(ours_dict_m)):
+                        sr, _   = site_dict_m.get(yr, (0, 0))
+                        or2, _  = ours_dict_m.get(yr, (0, 0))
+                        rr, _   = real_dict_m.get(yr, (0, 0))
+                        yr_rows_m.append({
+                            "연도":          yr,
+                            "원본 사이트":   f"{sr:+.1f}%",
+                            "우리(TC=0)":    f"{or2:+.1f}%",
+                            "차이(TC=0)":    f"{or2-sr:+.1f}%p",
+                            "우리(TC+손절)": f"{rr:+.1f}%",
+                            "차이(TC+손절)": f"{rr-sr:+.1f}%p",
+                        })
+                    st.dataframe(pd.DataFrame(yr_rows_m), use_container_width=True, hide_index=True)
+
+            st.markdown("#### 샤프지수 전략별 비교")
+            st.caption(f"무위험수익률 {_RISK_FREE*100:.1f}% 기준 (미국 10Y 금리 근사)")
+            sharpe_rows_m = []
+            for name in ["Pro1", "Pro2", "Pro3"]:
+                s_m  = _summary_mobile(name, site_res_m[name])
+                ob_m = _summary_mobile(name, ours_base_m[name])
+                or_m = _summary_mobile(name, ours_real_m[name])
+                sharpe_rows_m.append({
+                    "전략":          name,
+                    "원본 사이트":   s_m.get("샤프지수", "-"),
+                    "우리(TC=0)":    ob_m.get("샤프지수", "-"),
+                    "우리(TC+손절)": or_m.get("샤프지수", "-"),
+                })
+            st.dataframe(pd.DataFrame(sharpe_rows_m), use_container_width=True, hide_index=True)
+            st.info(
+                "샤프지수 > 1.0: 양호 / > 2.0: 우수. "
+                "TC+손절 적용 시 현실적인 위험조정수익률을 확인할 수 있습니다."
+            )
+
+        except Exception as _e_cmp_m:
+            st.error(f"비교 오류: {_e_cmp_m}")
+            st.exception(_e_cmp_m)
+    else:
+        st.info("'종합 비교 계산' 버튼을 눌러 원본 사이트 전략과 우리 전략을 비교하세요.")
+
+    st.divider()
+
     # ── 파라미터 비교 백테스트 ──────────────────────────────────
     st.subheader("🔬 파라미터 비교 백테스트")
     st.caption("에이전트 제안값을 불러오거나 직접 입력해서 현재값과 나란히 비교합니다.")
@@ -1263,6 +1391,159 @@ with tab5:
             else:
                 st.error(f"오류: {e}")
                 st.exception(e)
+
+
+# ══════════════════════════════════════════════════════════════
+# TAB 전략 : AI 최적화 전략 개요
+# ══════════════════════════════════════════════════════════════
+@st.cache_data(show_spinner=False)
+def _run_strategy_perf():
+    """전체 기간(2010~) 백테스트 성능 계산. 버튼 클릭 후 1회만 실행."""
+    from settings import load_params as _lp
+    _params = _lp()
+    _ai_strats = _params.get("STRATEGIES", {})
+    _base_strats = _params.get("BASELINE_STRATEGIES", {})
+    _df, _ = load_data_cached()
+    prices = _df["close"]
+
+    results = []
+    for name in ["Pro1", "Pro2", "Pro3"]:
+        for label, sp, tc in [
+            (f"원본 {name}", _base_strats.get(name, {}), 0.0),
+            (f"AI {name}",   _ai_strats.get(name, {}),   TRANSACTION_COST),
+        ]:
+            if not sp:
+                continue
+            yearly_rets = []
+            for yr in sorted(prices.index.year.unique()):
+                mask = prices.index.year == yr
+                if mask.sum() < 5:
+                    continue
+                r, _ = run_backtest(
+                    prices=prices[mask],
+                    splits=sp["splits"],
+                    buy_pct=sp["buy_pct"],
+                    sell_pct=sp["sell_pct"],
+                    stop_loss_days=sp["stop_loss_days"],
+                    buy_on_stop=sp.get("buy_on_stop", True),
+                    crash_buy=sp.get("crash_buy"),
+                    transaction_cost=tc,
+                )
+                yearly_rets.append(r)
+
+            total_ret, mdd_full = run_backtest(
+                prices=prices,
+                splits=sp["splits"],
+                buy_pct=sp["buy_pct"],
+                sell_pct=sp["sell_pct"],
+                stop_loss_days=sp["stop_loss_days"],
+                buy_on_stop=sp.get("buy_on_stop", True),
+                crash_buy=sp.get("crash_buy"),
+                transaction_cost=tc,
+            )
+
+            if yearly_rets:
+                avg_ret = float(np.mean(yearly_rets))
+                std_ret = float(np.std(yearly_rets, ddof=1)) if len(yearly_rets) > 1 else 0.0
+                sharpe = avg_ret / std_ret if std_ret > 0 else 0.0
+                worst_yr_idx = int(np.argmin(yearly_rets))
+                worst_yr = sorted(prices.index.year.unique())[worst_yr_idx]
+                worst_ret = yearly_rets[worst_yr_idx]
+            else:
+                sharpe, worst_yr, worst_ret = 0.0, "-", 0.0
+
+            results.append({
+                "전략":     label,
+                "누적수익": f"{total_ret:+.1f}%",
+                "Sharpe":   f"{sharpe:.2f}",
+                "MDD":      f"{mdd_full:.1f}%",
+                "최악연도": f"{worst_yr} ({worst_ret:+.1f}%)",
+            })
+    return results
+
+
+with tab_strategy:
+    st.title("📈 AI 최적화 전략")
+
+    # ── 섹션 1: 전략 개요 ──────────────────────────────────────
+    st.info(
+        "퀀트 에이전트가 2010-2026 백테스트로 최적화한 전략입니다. "
+        "원본 사이트 대비 Sharpe 비율이 크게 개선됐습니다."
+    )
+
+    st.divider()
+
+    # ── 섹션 2: 현재 적용 중인 전략 파라미터 ──────────────────
+    st.subheader("⚙️ 현재 적용 중인 전략 파라미터")
+    st.caption("params.json에서 동적 로드 — AI 에이전트가 최적화한 최신 값")
+
+    for _sname in ["Pro1", "Pro2", "Pro3"]:
+        _sp = STRATEGIES.get(_sname, {})
+        if not _sp:
+            continue
+        with st.container(border=True):
+            st.markdown(f"**{_sname}**")
+            _c1, _c2 = st.columns(2)
+            _splits_str = "  /  ".join(f"{x*100:.0f}%" for x in _sp.get("splits", []))
+            _c1.markdown(f"분할 비율: `{_splits_str}`")
+            _c2.markdown(
+                f"정배열 제외: {'✅ 예' if _sp.get('exclude_uptrend') else '❌ 아니오'}"
+            )
+            _c3, _c4 = st.columns(2)
+            _c3.metric("매수 기준", f"{_sp.get('buy_pct', 0)*100:+.3f}%")
+            _c4.metric("매도 기준", f"{_sp.get('sell_pct', 0)*100:+.3f}%")
+            _cb = _sp.get("crash_buy", {})
+            if _cb and _cb.get("enabled"):
+                st.caption(
+                    f"크래시 매수: 활성 | 트리거 {_cb.get('threshold', 0)*100:.1f}% "
+                    f"| 할당 {_cb.get('alloc', 0)*100:.0f}% "
+                    f"| 최대 {_cb.get('max_concurrent', 1)}슬롯"
+                )
+            else:
+                st.caption("크래시 매수: 비활성")
+
+    st.divider()
+
+    # ── 섹션 3: 백테스트 성능 ──────────────────────────────────
+    st.subheader("📊 백테스트 성능 (2010~현재 전체 기간)")
+
+    if st.button("📊 성능 확인 (TC 포함)", use_container_width=True, key="strat_perf_btn"):
+        with st.spinner("전체 기간 백테스트 계산 중 (수십 초 소요)..."):
+            try:
+                _perf_rows = _run_strategy_perf()
+                _perf_df = pd.DataFrame(_perf_rows)
+                st.dataframe(_perf_df, use_container_width=True, hide_index=True)
+                st.caption(
+                    "원본: TC=0% (사이트 기준) | AI: TC=0.1% (편도 실거래 비용 반영) | "
+                    "Sharpe = 연평균수익 / 연수익률표준편차"
+                )
+            except Exception as _e_perf:
+                st.error(f"계산 오류: {_e_perf}")
+                st.exception(_e_perf)
+    else:
+        st.info("버튼을 눌러 성능을 확인하세요. 처음 1회만 계산하고 이후엔 캐시를 사용합니다.")
+
+    st.divider()
+
+    # ── 섹션 4: 전략 설명 ──────────────────────────────────────
+    st.subheader("📌 전략 설계 원칙")
+    st.markdown(
+        """
+**Pro1** — 정배열(상승장) 제외. 하락/횡보 시 소폭 하락(-0.3%)마다 분할 매수, +1% 빠른 수익실현
+
+**Pro2** — 모든 시장 대응. Pro1과 동일 민감도, 크래시 매수 슬롯 2개
+
+**Pro3** — 가장 공격적. -0.7% 큰 하락을 기다렸다가 +4.2% 크게 수익실현. 크래시 슬롯 3개
+        """
+    )
+    st.subheader("🎯 공통 개선사항 (AI 최적화)")
+    st.markdown(
+        """
+- **후방 가중 피라미딩**: 나중 슬롯에 더 많은 자금 배분 (하락이 깊어질수록 더 많이 매수)
+- **크래시 매수 활성화**: 하루 -7.5% 이상 급락 시 독립 슬롯으로 추가 매수
+- **거래비용 0.1% 반영**: 수수료 + 슬리피지 실거래 환경 시뮬레이션
+        """
+    )
 
 
 # ══════════════════════════════════════════════════════════════
