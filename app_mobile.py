@@ -23,7 +23,7 @@ import streamlit as st
 
 from backtest import run_backtest
 from config import STRATEGIES, EVAL_WINDOW, BASELINE_STRATEGIES, TRANSACTION_COST, PRICE_STOP_LOSS_PCT
-from data import get_data
+from data import get_data, _get_latest_available_bday
 from indicators import calc_indicators, FEATURE_COLS
 from recommender import recommend
 from parser import parse_site_text
@@ -147,7 +147,8 @@ with tab1:
     # [MOBILE] 날짜 + 갱신 버튼을 2컬럼으로
     col_date, col_btn = st.columns([3, 1])
     with col_date:
-        target_date_input = st.date_input("기준일", value=date.today(), max_value=date.today())
+        _default_date = _get_latest_available_bday()
+        target_date_input = st.date_input("기준일", value=_default_date, max_value=date.today())
     with col_btn:
         st.write("")
         if st.button("🔄 갱신", use_container_width=True):
