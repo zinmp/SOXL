@@ -4,9 +4,11 @@ import os
 import requests
 import streamlit as st
 
-ACCOUNT_FILE = "account.json"
-GIST_FILENAME = "tteolsaopal_account.json"
-GIST_HEADERS = {"Accept": "application/vnd.github+json"}
+ACCOUNT_FILE      = "account.json"
+COMPARISON_FILE   = "comparison_log.json"
+GIST_FILENAME     = "tteolsaopal_account.json"
+GIST_CMP_FILENAME = "tteolsaopal_comparison.json"
+GIST_HEADERS      = {"Accept": "application/vnd.github+json"}
 
 DEFAULT_ACCOUNT: dict = {
     "seed": 10000,
@@ -62,6 +64,53 @@ def load_account() -> dict:
             return dict(DEFAULT_ACCOUNT)
 
     return dict(DEFAULT_ACCOUNT)
+
+
+def load_comparison_log() -> list:
+    pat, gist_id = _creds()
+    if pat and gist_id:
+        try:
+            resp = requests.get(
+                f"https://api.github.com/gists/{gist_id}",
+                headers={**GIST_HEADERS, "Authorization": f"token {pat}"},
+                timeout=5,
+            )
+            resp.raise_for_status()
+            files = resp.json().get("files", {})
+            if GIST_CMP_FILENAME in files:
+                return json.loads(files[GIST_CMP_FILENAME]["content"])
+            return []
+        except Exception as e:
+            st.warning(f"비교 데이터 Gist 로드 실패: {e}")
+            return []
+    if os.path.exists(COMPARISON_FILE):
+        try:
+            with open(COMPARISON_FILE, encoding="utf-8") as f:
+                return json.load(f)
+        except Exception:
+            return []
+    return []
+
+
+def save_comparison_log(log: list) -> None:
+    pat, gist_id = _creds()
+    if pat and gist_id:
+        try:
+            resp = requests.patch(
+                f"https://api.github.com/gists/{gist_id}",
+                headers={**GIST_HEADERS, "Authorization": f"token {pat}"},
+                json={"files": {GIST_CMP_FILENAME: {"content": json.dumps(log, ensure_ascii=False, indent=2, default=str)}}},
+                timeout=5,
+            )
+            resp.raise_for_status()
+        except Exception as e:
+            st.error(f"비교 데이터 Gist 저장 실패: {e}")
+        return
+    try:
+        with open(COMPARISON_FILE, "w", encoding="utf-8") as f:
+            json.dump(log, f, ensure_ascii=False, indent=2, default=str)
+    except Exception as e:
+        st.error(f"comparison_log.json 저장 실패: {e}")
 
 
 def save_account(acct: dict) -> None:

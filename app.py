@@ -31,7 +31,7 @@ from agent import (
     extract_param_suggestions,
 )
 from settings import load_params, save_params, update_strategies
-from storage import load_account, save_account
+from storage import load_account, save_account, load_comparison_log, save_comparison_log
 
 _BASE = Path(__file__).parent
 COMPARISON_FILE = str(_BASE / "comparison_log.json")
@@ -86,16 +86,6 @@ def load_data_cached():
     return df, ind
 
 
-def load_comparison_log() -> list:
-    if not os.path.exists(COMPARISON_FILE):
-        return []
-    with open(COMPARISON_FILE, "r", encoding="utf-8") as f:
-        return json.load(f)
-
-
-def save_comparison_log(log: list):
-    with open(COMPARISON_FILE, "w", encoding="utf-8") as f:
-        json.dump(log, f, ensure_ascii=False, indent=2, default=str)
 
 
 def color_diff(diff: float) -> str:
